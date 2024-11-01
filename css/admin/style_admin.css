@@ -1,0 +1,189 @@
+/* 
+    Document   : style_admin
+    Created on : 07.11.2014, 2:45:39
+    Author     : Евгений
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.te-fpb-block {
+    clear: both;
+    width: 100%;
+    margin: 0 0 15px 0;
+    overflow: hidden;
+}
+.te-fields-h3 {
+    background: #3498db;
+    border-bottom: 2px solid #2980b9;
+    border-radius: 3px;
+    color: white;
+    margin: 0 0 10px !important;  
+}
+.te-fpb-content {
+    background: #ecf0f1;
+    border-top: 1px solid #bdc3c7;
+    display: block;
+    overflow: hidden;
+    padding: 5px 10px;
+    margin: 0 0 15px;
+}
+.te-fpb-box {
+    float: left;
+    width: 47%;
+    margin: 0 10px 10px 0;
+}
+.te-fpb-box p {
+    width: 100%;
+    clear: both;
+    display: block;
+    margin: 0;
+}
+.te-fpb-delete, .te-slide-img-delete {
+    background: #e74c3c;
+    border-bottom: 3px solid #c0392b;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    height: 21px;
+    padding: 3px;
+    text-align: center;
+    width: 60px;
+    margin-top: 18px;
+}
+.te-fpb-delete:hover, .te-slide-img-delete:hover {
+    background: #c0392b;
+}
+.te-fpb-add, .te-slide-add {
+    background: #1abc9c;
+    border-bottom: 3px solid #16a085;
+    border-radius: 3px;
+    clear: both;
+    color: white;
+    cursor: pointer;
+    float: right;
+    height: 21px;
+    padding: 3px;
+    text-align: center;
+    width: 75px;
+}
+.te-fpb-add:hover, .te-slide-add:hover {
+    background: #16a085;
+}
+.te-fpb-title {
+    width: 90%;
+}
+.te-fpb-prcent {
+    width: 120px;
+}
+.te-fpb-checkbox {
+    float: left;
+    width: 100px;
+    height: 30px;
+}
+.te-fpb-checkbox select{  
+    width: 100%; 
+}
+.te-fpb-checkbox-title {
+    float: left;
+    font-size: 16px;
+    height: 30px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+.te-fpb-shc {
+    border: 2px solid #bdc3c7;
+    clear: both;
+    color: black;
+    font-size: 18px;    
+    margin-top: 40px;
+    padding: 10px;
+}
+.wp-picker-holder {
+    position: absolute;
+}
+
+.te-slide-img {
+    float: left;
+    height: 130px;
+    margin: 0 15px 15px 0;
+    position: relative;
+    width: 120px;
+}
+.te-slide-img .te-slide-img-delete {
+    bottom: 0;
+    margin: -7px 0 0;
+    right: 0;
+    width: 114px;
+}
+.te-slide-img > img {
+    border-bottom: 2px solid #ccc;
+    border-radius: 3px 3px 0 0;
+}
+.te_portfolio_item-thumb {
+    width: 80px;
+    height: 80px;
+}
+
+/* Meta Box */
+#meta_box_tinymce_button {
+    display: none;
+}
+/* End Meta Box */
+/*  ==========================================================================*/
+/* Social buttons */
+#meta_box_social_buttons .inside {
+    overflow: hidden;
+}
+.te-social-buttons-block {
+    background: none repeat scroll 0 0 #ecf0f1;
+    border-bottom: 2px solid #bdc3c7;
+    display: block;
+    float: left;
+    min-height: 100px;
+    margin: 5px 0;
+    overflow: hidden;
+    width: 100%;
+}
+.te-social-buttons-img {
+    width: 100px;
+    height: 80px;
+    float: left;
+    text-align: center;
+}
+.te-social-buttons-img img {
+    height: 35px;
+    margin-top: 20px;
+    width: 35px;
+}
+.te-social-buttons-links {
+    max-width: 300px;
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.te-social-buttons-links p{
+    clear: both;
+    color: #2c3e50;
+    line-height: 22px;
+    margin: 5px 0 0;
+    width: 100%;
+}
+.te-social-buttons-links input{
+    clear: both;    
+    width: 100%;
+}
+.te-social-buttons-delete {
+     background: none repeat scroll 0 0 #e74c3c;
+    border-bottom: 3px solid #c0392b;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    height: 21px;
+    margin-top: 5px;
+    padding: 3px;
+    text-align: center;
+    width: 60px;
+}
+.te-social-buttons-delete:hover {
+   background: #c0392b;
+}
+/* End Social buttons */
